@@ -7,9 +7,10 @@ var {
 module.exports = React.createClass({
   render: function() {
     return (
-      <TextInput style={styles.input}
-      secureTextEntry={this.props.secure}
-      onChangeText={this.props.children}
+      <TextInput
+      style={styles.input}
+      secureTextEntry={this.props.issecure}
+      onChangeText={this.props.onChangeText}
       value ={this.props.value}
       />
     );
