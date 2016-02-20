@@ -21,7 +21,6 @@ var ROUTES = {
   signin: Signin,
   signup: Signup,
   main: Main
-
 };
 
 module.exports = React.createClass({

@@ -48,7 +48,8 @@ module.exports = React.createClass({
   onPress: function() {
     Parse.User.logIn(this.state.username, this.state.password, {
     success: (user) =>  {
-      this.props.navigator.push({name: 'main'});
+      this.props.navigator.immediatelyResetRouteStack([{name:'main'}]);
+
     },
     error: (data, error) => { this.setState({errorMessage: error.message})
     // The login failed. Check error to see why.

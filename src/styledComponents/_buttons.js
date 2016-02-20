@@ -34,7 +34,7 @@ var styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#CC0000',
     height: 36,
-    width: 100,
+    width: 200,
     borderRadius: 5,
     justifyContent: 'center',
     alignItems: 'center',
