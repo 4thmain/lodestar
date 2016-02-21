@@ -20,7 +20,7 @@ var Main = require('./main')
 var ROUTES = {
   signin: Signin,
   signup: Signup,
-  main: Main
+  main: Main,
 };
 
 module.exports = React.createClass({
@@ -36,7 +36,7 @@ renderScene: function(route, navigator) {
 render: function() {
   return (
       <Navigator
-      initialRoute={{name: 'signin'}}
+      initialRoute={{name: 'main'}}
       renderScene={this.renderScene}
       configureScene={() => {return Navigator.SceneConfigs.FloatFromRight;}}
       />

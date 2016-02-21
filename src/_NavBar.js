@@ -9,15 +9,15 @@ module.exports = React.createClass({
         height={44}
         titleColor={'#fff'}
         backgroundColor={'#2B3940'}
-        leftButtonIcon={''}
-        leftButtonTitle={'Back'}
-        leftButtonTitleColor={'#fff'}
-        onLeftButtonPress={'onBackHandle'}
-        rightButtonIcon={''}
-        rightButtonTitle={'Forward'}
-        rightButtonTitleColor={'#fff'}
-        onRightButtonPress={'onForwardHandle'}
       />
     );
   }
 });
+// leftButtonIcon={''}
+// leftButtonTitle={'Back'}
+// leftButtonTitleColor={'#fff'}
+// onLeftButtonPress={'onBackHandle'}
+// rightButtonIcon={''}
+// rightButtonTitle={'Forward'}
+// rightButtonTitleColor={'#fff'}
+// onRightButtonPress={'onForwardHandle'}
