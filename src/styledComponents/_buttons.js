@@ -43,6 +43,7 @@ var styles = StyleSheet.create({
    text: {
     color: '#fff'
    },
+
    primary: {
     backgroundColor: '#70C2C1',
     borderColor: '#54C7C3'

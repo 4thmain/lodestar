@@ -46,6 +46,6 @@ render: function() {
 
 var styles =  StyleSheet.create({
   container: {
-    flex: 1,
+
   }
 });

@@ -16,7 +16,7 @@ module.exports = React.createClass({
     underlayColor={'#fcfcfc'}
     onPress={this.props.handlePress}
     >
-    <Text style={styles.row}>{this.props.data}</Text>
+    <Text style={styles.row} ref={(row) => this.rows[sec][i] = row}>{this.props.data}</Text>
     </TouchableHighlight>
     )
   }

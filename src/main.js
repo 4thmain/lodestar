@@ -8,11 +8,11 @@ var {
 var NavigationBar = require('./_NavBar.js');
 var Container = require('./layouts/_container');
 var ListView = require('./styledComponents/_list');
-var Buttons = require('./styledComponents/_buttons')
+var ButtonsShowcase = require('./styledComponents/showcase/_buttonsShowcase')
 
 var ROUTES = {
   list: ListView,
-  button: Buttons,
+  button: ButtonsShowcase,
 };
 
 module.exports = React.createClass({
