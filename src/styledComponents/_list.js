@@ -13,7 +13,7 @@ module.exports = React.createClass({
   getInitialState: function() {
     var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
     return {
-      dataSource: ds.cloneWithRows(['Activity Indicator', 'Title','Input Box','Buttons','Notifications']),
+      dataSource: ds.cloneWithRows(['Lists','Activity Indicator', 'Title','Input Box','Buttons','Notifications']),
     };
 },
   render: function() {
@@ -26,15 +26,14 @@ module.exports = React.createClass({
         </View>
       );
     },
+
     renderRow:function(rowData,sectionID,rowID) {
-      console.log(rowID);
       return <ListItem data = {rowData} rowid = {rowID}
       handlePress = {this._handlePress} />;
     },
     _handlePress: function(data,rowid) {
       console.log(data);
       console.log(rowid);
-
       this.props.navigator.push({name: 'button'});
     }
 });

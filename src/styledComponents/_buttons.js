@@ -14,8 +14,7 @@ render: function() {
       <TouchableHighlight
       underlayColor="#70C2C1"
       style={[styles.button,styles.primary]}
-      onPress={this.props.onPress}
-      >
+      onPress={this.props.onPress}>
         <Text style={styles.text}>{this.props.text}</Text>
       </TouchableHighlight>
     </View>
