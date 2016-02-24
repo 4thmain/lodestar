@@ -12,7 +12,7 @@ module.exports = React.createClass({
   getInitialState: function() {
     var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
     return {
-      dataSource: ds.cloneWithRows(['Lists','Activity Indicator', 'Title','Input Box','Buttons','Notifications']),
+      dataSource: ds.cloneWithRows(['Lists','Spinner', 'Title','Input Box','Buttons','Notifications']),
     };
 },
   render: function() {

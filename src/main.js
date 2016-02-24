@@ -10,12 +10,14 @@ var Container = require('./layouts/_container');
 var ListView = require('./styledComponents/_list');
 var ButtonsShowcase = require('./styledComponents/showcase/_buttonsShowcase')
 var ListsShowcase = require('./styledComponents/showcase/_listShowcase')
+var SpinnerShowcase = require('./styledComponents/showcase/_spinnerShowcase')
 
 var ROUTES = {
   list: ListView,
   ////// Showcase Components
   buttons: ButtonsShowcase,
-  lists: ListsShowcase
+  lists: ListsShowcase,
+  spinner:SpinnerShowcase
 };
 
 module.exports = React.createClass({
