@@ -9,6 +9,7 @@ var {
 
 
 module.exports = React.createClass({
+
   _handlePress: function() {
     console.log(this.props)
     this.props.handlePress(this.props.data.toLowerCase())
