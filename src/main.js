@@ -9,10 +9,20 @@ var NavigationBar = require('./_NavBar.js');
 var Container = require('./layouts/_container');
 var ListView = require('./styledComponents/_list');
 var ButtonsShowcase = require('./styledComponents/showcase/_buttonsShowcase')
+var ListsShowcase = require('./styledComponents/showcase/_listShowcase')
+var SpinnerShowcase = require('./styledComponents/showcase/_spinnerShowcase')
+var TypographyShowcase = require('./styledComponents/showcase/_typographyShowcase')
+var FormShowcase = require('./styledComponents/showcase/_formShowcase')
 
 var ROUTES = {
   list: ListView,
-  button: ButtonsShowcase,
+  ////// Showcase Components
+  buttons: ButtonsShowcase,
+  lists: ListsShowcase,
+  spinner:SpinnerShowcase,
+  typography: TypographyShowcase,
+  forms: FormShowcase
+
 };
 
 module.exports = React.createClass({

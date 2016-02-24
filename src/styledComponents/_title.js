@@ -22,8 +22,8 @@ var styles = StyleSheet.create({
     alignItems: 'center'
   },
   title: {
-    fontSize: 15,
-    lineHeight: 24,
+    fontSize: 24,
+    lineHeight: 30,
     textAlign: 'center',
     fontWeight: '100',
     color: 'gray'
