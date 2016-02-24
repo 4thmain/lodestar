@@ -12,6 +12,7 @@ var ButtonsShowcase = require('./styledComponents/showcase/_buttonsShowcase')
 var ListsShowcase = require('./styledComponents/showcase/_listShowcase')
 var SpinnerShowcase = require('./styledComponents/showcase/_spinnerShowcase')
 var TypographyShowcase = require('./styledComponents/showcase/_typographyShowcase')
+var FormShowcase = require('./styledComponents/showcase/_formShowcase')
 
 var ROUTES = {
   list: ListView,
@@ -19,7 +20,9 @@ var ROUTES = {
   buttons: ButtonsShowcase,
   lists: ListsShowcase,
   spinner:SpinnerShowcase,
-  typography: TypographyShowcase
+  typography: TypographyShowcase,
+  forms: FormShowcase
+
 };
 
 module.exports = React.createClass({
