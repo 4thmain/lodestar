@@ -35,22 +35,5 @@ module.exports = React.createClass({
   container: {
       flex: 1,
       marginTop: 64,
-  },
-  rowView: {
-    borderColor: '#ccc',
-    borderBottomWidth: 0.5,
-    marginLeft: 10
-  },
-  row: {
-    fontSize: 20,
-    lineHeight: 40,
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingTop: 1,
-    paddingBottom: 8,
-    borderColor: '#333333',
-    borderBottomWidth: 0.5,
   }
-});
-
-// renderRow={(rowData) => <TouchableHighlight style={styles.rowView}><Text style={styles.row}>{rowData}</Text></TouchableHighlight>}
+  });
