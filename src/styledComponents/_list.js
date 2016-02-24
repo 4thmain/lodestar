@@ -31,10 +31,9 @@ module.exports = React.createClass({
       return <ListItem data = {rowData} rowid = {rowID}
       handlePress = {this._handlePress} />;
     },
-    _handlePress: function(data,rowid) {
-      console.log(data);
-      console.log(rowid);
-      this.props.navigator.push({name: 'button'});
+    _handlePress: function(rowData) {
+      console.log(rowData);
+      this.props.navigator.push({name: rowData});
     }
 });
 

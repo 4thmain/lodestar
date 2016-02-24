@@ -13,6 +13,7 @@ var ButtonsShowcase = require('./styledComponents/showcase/_buttonsShowcase')
 var ROUTES = {
   list: ListView,
   button: ButtonsShowcase,
+  lists: ButtonsShowcase,
 };
 
 module.exports = React.createClass({

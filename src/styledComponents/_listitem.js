@@ -9,14 +9,19 @@ var {
 
 
 module.exports = React.createClass({
+  _handlePress: function() {
+    console.log(this.props)
+    this.props.handlePress(this.props.data.toLowerCase())
+  },
+
   render: function() {
     return (
     <TouchableHighlight
     style={styles.rowView}
     underlayColor={'#fcfcfc'}
-    onPress={this.props.handlePress}
+    onPress={this._handlePress}
     >
-    <Text style={styles.row} ref={(row) => this.rows[sec][i] = row}>{this.props.data}</Text>
+    <Text style={styles.row}>{this.props.rowid}. {this.props.data}</Text>
     </TouchableHighlight>
     )
   }
