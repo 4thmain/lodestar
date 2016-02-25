@@ -11,7 +11,7 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lodestar-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vvy-UT-J6U">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lodestar-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vvy-UT-J6U">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lodestar by Wave" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
@@ -30,10 +30,14 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="Vvy-UT-J6U" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1zR-h9-a1K"/>
+                <constraint firstItem="Vvy-UT-J6U" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Jcp-QY-3ey"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
                 <constraint firstItem="uIW-ah-Byh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="c48-Ww-6wT"/>
+                <constraint firstAttribute="bottom" secondItem="Vvy-UT-J6U" secondAttribute="bottom" id="lgm-hw-Oa9"/>
+                <constraint firstAttribute="trailing" secondItem="Vvy-UT-J6U" secondAttribute="trailing" id="mFA-Gv-Wfl"/>
                 <constraint firstItem="uIW-ah-Byh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="101" id="v5F-WC-ZW7"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
